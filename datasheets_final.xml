@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+        Datasheet Title -
+        Datasheet Creation Date -
+        Creator -
+
+        Datasheet Key -
+        QuestionAnswer values are either Yes (1) or No (0)
+        QuestionAnswerExpected value should match QuestionAnswer or the Data Quality Engine should throw a flag.
+            The creator of the Datasheet should use QuestionAnswerExpected to flag a potential bias or data quality
+            issue by mismatching these flags.
+
+
+        Questions from the [Datasheets for Datasets](https://arxiv.org/abs/1803.09010) paper, v7.
+
+        Questions are broken down by section with summaries here -
+
+        -Motivation
+
+        _The questions in this section are primarily intended to encourage dataset creators
+        to clearly articulate their reasons for creating the dataset and to promote transparency
+        about funding interests._
+
+        -Composition
+
+        _Most of these questions are intended to provide dataset consumers with the
+        information they need to make informed decisions about using the dataset for
+        specific tasks. The answers to some of these questions reveal information
+        about compliance with the EU’s General Data Protection Regulation (GDPR) or
+        comparable regulations in other jurisdictions._
+
+        -Collection process
+
+        The answers to questions here may provide information that allow others to
+        reconstruct the dataset without access to it._
+
+        -Preprocessing/cleaning/labeling
+
+        The questions in this section are intended to provide dataset consumers with the information
+        they need to determine whether the “raw” data has been processed in ways that are compatible
+        with their chosen tasks. For example, text that has been converted into a “bag-of-words” is
+        not suitable for tasks involving word order._
+
+        -Uses
+
+        These questions are intended to encourage dataset creators to reflect on the tasks
+        for which the dataset should and should not be used. By explicitly highlighting these tasks,
+        dataset creators can help dataset consumers to make informed decisions, thereby avoiding
+        potential risks or harms.
+
+        -Distribution
+
+        Uses outside the company
+
+        -Maintenance
+
+        These questions are intended to encourage dataset creators to plan for dataset maintenance
+        and communicate this plan with dataset consumers.
+
+-->
+
+<Questions>
+        <Question>
+            <id>1</id>
+            <QuestionClassification>Motivation</QuestionClassification>
+            <QuestionTitle>For what purpose was the dataset created?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>2</id>
+            <QuestionClassification>Motivation</QuestionClassification>
+            <QuestionTitle>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>3</id>
+            <QuestionClassification>Motivation</QuestionClassification>
+            <QuestionTitle>Who funded the creation of the dataset?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>4</id>
+            <QuestionClassification>Motivation</QuestionClassification>
+            <QuestionTitle>Any other comments?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>5</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>6</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>How many instances are there in total (of each type, if appropriate)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>7</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>8</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>What data does each instance consist of?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>9</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Is there a label or target associated with each instance?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>10</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Is any information missing from individual instances?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>11</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Are relationships between individual instances made explicit (e.g., users’ movie ratings, social network links)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>12</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Are there recommended data splits (e.g., training, development/validation, testing)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>13</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Are there any errors, sources of noise, or redundancies in the dataset?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>14</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>15</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals’ non-public communications)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>16</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>17</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Does the dataset relate to people?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>18</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Does the dataset identify any subpopulations (e.g., by age, gender)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>19</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>20</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals racial or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>21</id>
+            <QuestionClassification>Composition</QuestionClassification>
+            <QuestionTitle>Any other comments?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>22</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>How was the data associated with each instance acquired?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>22</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>What mechanisms or procedures were used to collect the data (e.g., hardware apparatus or sensor, manual human curation, software program, software API)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>23</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>24</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Who was involved in the data collection process (e.g., students, coworkers, contractors) and how were they compensated (e.g., how much were coworkers paid)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>25</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Over what timeframe was the data collected?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>26</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Were any ethical review processes conducted (e.g., by an institutional review board)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>27</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Does the dataset relate to people?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>28</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>29</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Were the individuals in question notified about the data collection?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>30</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Did the individuals in question consent to the collection and use of their data?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>31</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>Yes</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>32</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>33</id>
+            <QuestionClassification>Collection</QuestionClassification>
+            <QuestionTitle>Any other comments?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>34</id>
+            <QuestionClassification>Preprocessing</QuestionClassification>
+            <QuestionTitle>Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>35</id>
+            <QuestionClassification>Preprocessing</QuestionClassification>
+            <QuestionTitle>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>36</id>
+            <QuestionClassification>Preprocessing</QuestionClassification>
+            <QuestionTitle>Is the software used to preprocess/clean/label the instances available?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>Yes</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>37</id>
+            <QuestionClassification>Preprocessing</QuestionClassification>
+            <QuestionTitle>Any other comments?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>38</id>
+            <QuestionClassification>Uses</QuestionClassification>
+            <QuestionTitle>Has the dataset been used for any tasks already?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>39</id>
+            <QuestionClassification>Uses</QuestionClassification>
+            <QuestionTitle>text</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>40</id>
+            <QuestionClassification>Uses</QuestionClassification>
+            <QuestionTitle>What (other) tasks could the dataset be used for?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>None</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>41</id>
+            <QuestionClassification>Uses</QuestionClassification>
+            <QuestionTitle>Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>42</id>
+            <QuestionClassification>Uses</QuestionClassification>
+            <QuestionTitle>Are there tasks for which the dataset should not be used?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>Stext</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>43</id>
+            <QuestionClassification>Uses</QuestionClassification>
+            <QuestionTitle>Any other comments?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>44</id>
+            <QuestionClassification>Distribution</QuestionClassification>
+            <QuestionTitle>Will the dataset be distributed to third parties outside of the entity (e.g., company, institution, organization) on behalf of which the dataset was created?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>45</id>
+            <QuestionClassification>Distribution</QuestionClassification>
+            <QuestionTitle>How will the dataset will be distributed (e.g., tarball on website, API, GitHub)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>46</id>
+            <QuestionClassification>Distribution</QuestionClassification>
+            <QuestionTitle>When will the dataset be distributed?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>47</id>
+            <QuestionClassification>Distribution</QuestionClassification>
+            <QuestionTitle>Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>48</id>
+            <QuestionClassification>Distribution</QuestionClassification>
+            <QuestionTitle>Have any third parties imposed IP-based or other restrictions on the data associated with the instances?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>49</id>
+            <QuestionClassification>Distribution</QuestionClassification>
+            <QuestionTitle>Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>50</id>
+            <QuestionClassification>Distribution</QuestionClassification>
+            <QuestionTitle>Any other comments?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>51</id>
+            <QuestionClassification>Maintenance</QuestionClassification>
+            <QuestionTitle>Who is supporting/hosting/maintaining the dataset?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>52</id>
+            <QuestionClassification>Maintenance</QuestionClassification>
+            <QuestionTitle>How can the owner/curator/manager of the dataset be contacted (e.g., email address)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>53</id>
+            <QuestionClassification>Maintenance</QuestionClassification>
+            <QuestionTitle>Is there an erratum?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>54</id>
+            <QuestionClassification>Maintenance</QuestionClassification>
+            <QuestionTitle>Will the dataset be updated (e.g., to correct labeling errors, add new instances, delete instances)?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>55</id>
+            <QuestionClassification>Maintenance</QuestionClassification>
+            <QuestionTitle>If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g., were individuals in question told that their data would be retained for a fixed period of time and then deleted)?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>56</id>
+            <QuestionClassification>Maintenance</QuestionClassification>
+            <QuestionTitle>Will older versions of the dataset continue to be supported/hosted/maintained?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>57</id>
+            <QuestionClassification>Maintenance</QuestionClassification>
+            <QuestionTitle>If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?</QuestionTitle>
+            <QuestionAnswer>1</QuestionAnswer>
+            <QuestionAnswerExpected>1</QuestionAnswerExpected>
+            <QuestionAnswerText>text</QuestionAnswerText>
+        </Question>
+        <Question>
+            <id>58</id>
+            <QuestionClassification>Maintenance</QuestionClassification>
+            <QuestionTitle>Any other comments?</QuestionTitle>
+            <QuestionAnswer>0</QuestionAnswer>
+            <QuestionAnswerExpected>0</QuestionAnswerExpected>
+            <QuestionAnswerText>No</QuestionAnswerText>
+        </Question>
+</Questions>
